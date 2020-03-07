@@ -41,15 +41,15 @@ int main()
     //This part of code makes robot go forward to push mineral transport out
     motor(0,100);
     motor(1,100);
-    msleep(1500);
+    msleep(2700);
     
     //This part of code makes robot reverse as soon as it pushes the mineral transport out of the way
     motor(0,-100);
     motor(1,-100);
-    msleep(1500);
+    msleep(2300);
     
     //This part of code makes robot turn to position it to go forward
-    motor(0,-75);
+    motor(0,-70);
     motor(1,0);
     msleep(1500);
     
